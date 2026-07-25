@@ -25,7 +25,7 @@ define( 'CS_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 define( 'CS_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
 // Load the core plugin class.
-require_once CS_PLUGIN_PATH . 'app/Core/Application.php';
+require_once CS_PLUGIN_PATH . 'app/Admin/Core/Application.php';
 
 // Start the plugin.
 CreatorStack\Core\Application::boot();
